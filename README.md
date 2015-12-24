@@ -1,13 +1,13 @@
 # exile-vehicle_spawn_with_inventory
 Step 1:
-  Put the file "" into your Exile.mission (example Exile.Altis)
+  Put the file "ExileServer_world_spawnVehicles.sqf" into your Exile.mission (example Exile.Altis)
 
 Step 2:
   Put the following code into your config.cpp from your mission under the correct class
 ```  
 class CfgExileCustomCode
 {
-	ExileServer_world_spawnVehicles = "fsb_tools\functions\ExileServer_world_spawnVehicles.sqf";
+	ExileServer_world_spawnVehicles = "ExileServer_world_spawnVehicles.sqf";
 };
 ```
 
