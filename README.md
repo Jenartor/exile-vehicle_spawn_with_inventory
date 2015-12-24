@@ -41,6 +41,8 @@ class SpawnVehicleItems{
 	};
 };
 ```
-
 Step 4:
+ Pack your mission into pbo
+
+Step 5:
  Start your Server
