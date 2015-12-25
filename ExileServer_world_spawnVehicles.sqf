@@ -66,6 +66,7 @@ for "_xSize" from 0 to _mapsizeX step _gridSize do
           switch (_cargoType) do {
             case 1: { _vehicle addMagazineAmmoCargo [_itemAdd, 1, 1]; };
             case 2: { _vehicle addWeaponCargoGlobal [_itemAdd, 1]; };
+            case 3: { _vehicle addBackpackCargoGlobal [_itemAdd, 1]; };
             default { _vehicle addMagazineAmmoCargo [_itemAdd, 1, 1]; };
           };
           _itemsAdded = _itemsAdded + 1;
